@@ -1,7 +1,7 @@
 '''
 @AUTHOR: Ananya Samal
 
-@NAME: Task1_a_seriesgeneration_v_1_0.py 
+@NAME: Task_1_a_seriesgeneration_userinput_v_1_0.py 
 Task a :- 
 a) Implement a program to calculate the number of steps to reach 1 thefirst time for any given m€N.
 
