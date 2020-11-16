@@ -15,8 +15,11 @@
   It is a Mathematical Sequence, We are provided with a number m. Task is to generate a sequence of numbers starting from m and find the number of steps taken by m to reduce to     1,4,2.
   Imagine m = 10 
   and N = index
+  
   C10(1) = 10 // as 10 is even Cm(n)/2 --> 10/2
+  
   C10(2) = 5  // as 5 is odd Cm(n)∗3 + 1 ---> 5x3+1
+  
   C10(3) = 16
   C10(4) = 8
   C10(5) = 4
