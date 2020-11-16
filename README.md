@@ -42,5 +42,5 @@
 ```
 Run for : master
 to run the file download to local system
-
+to run python file in cmd use command python <file name.py>
 ```
