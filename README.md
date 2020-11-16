@@ -3,6 +3,7 @@
 ## Let Cm be a sequence defined by:
 
   1- Cm(n+1) :={ Cm(n)/2
+  
                  Cm(n)∗3 + 1
                  
   2- Cm(n)/2 for Cm(n) is even
