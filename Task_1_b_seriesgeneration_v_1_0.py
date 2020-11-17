@@ -2,8 +2,8 @@
 @AUTHOR: Ananya Samal
 
 @NAME: Task_1_b_seriesgeneration_v_1_0.py 
-Task a :- 
-a) Implement a program to calculate the number of steps to reach 1 thefirst time for any given m€N.
+Task b :- 
+b)  Adapt  the  implementation  to  calculate  the  number  of  steps  for  each (m ∈ [1,10000])
 
 Description:
   1- Generate a math sequence which ends with 1,4,2 for each number in the range 1 to 10000.
