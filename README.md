@@ -44,3 +44,8 @@ Run for : master
 to run the file download to local system
 to run python file in cmd use command python <file name.py>
 ```
+
+
+
+## Q - D - GRAPH
+![Figure_1](https://user-images.githubusercontent.com/34180878/99405183-c35d5a00-28ec-11eb-87aa-2505e300e0a8.png)
