@@ -44,7 +44,7 @@ total_execution_time = (end_total_time - start_total_time)
 print("optimal_sequence_desc_with_div_looped::The execution time to reach 1 in all sequences is "+str(total_execution_time))
 
 #Q(d)
-plt.figure(figsize =(10, 5),dpi = 250) #adding height width and dpi resolution to have better visibility
+plt.figure(figsize =(10, 5),dpi = 200) #adding height width and dpi resolution to have better visibility
 plt.plot(list(range(1,10000,1)),optimal_steps_array_looped,color = 'black', linewidth = '0.08') 
 plt.title('Optimal Sequence')
 plt.ylabel('Plotting No of steps to Input Number')          #y-axis naming
