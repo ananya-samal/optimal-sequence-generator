@@ -10,7 +10,7 @@ Description:
   2- Find the fastest time required to reach 1.
   
 Remark:
- Adding more than one approach to understand the time efficiency on each approach
+ Adding more than one approach to understand the time efficiency on each approach.
 '''
 import timeit                             #using timeit module for time benchmarking
 
@@ -69,7 +69,10 @@ total_execution_time = (end_total_time - start_total_time)    #time needed for e
 print("optimal_sequence_desc_with_div_looped::The execution time to reach 1 in all sequences is "+str(total_execution_time))
 
 '''
-3rd approach. my thought here was using a map i could save sometime in the previous approach. but converting list was consuming. So i turned towrds generator, which saves time significantly compared to last stage. but I can not use the output of yield directly for ploting graph or anytging for current case graph as it gives generator object and i need to covert it to list which results in same time. So I will stick to the list(map) which is my 2nd approach to generate graph.
+3rd approach. my thought here was using a map i could save sometime in the previous approach. but converting list was consuming.
+So i turned towrds generator, which saves time significantly compared to last stage.
+but I can not use the output of yield directly for ploting graph or anytging for current case graph as it gives generator object 
+and I need to covert it to list which results in same time. So I will stick to the list(map) which is my 2nd approach to generate graph.
 '''
 
 def optimal_sequence_desc_with_div_yeild(): 
@@ -102,7 +105,10 @@ print("optimal_sequence_desc_with_div_yeild::The execution time to reach 1 in al
 
 '''
 4th approach
-For my undestanding and trying several approches I believe map is the fastest method to perform calculation and store data, but as it returns map object so retrieving data in list or tuple is time consuming.so only if time is considered for performace based on calculation and storing data then this approach gives significant time reduction comapred to all the other approches i have taken in this file. for plotting I am just coverting the map object to list as matplotlib takes list as argument.
+For my undestanding and trying several approches I believe map is the fastest method to perform calculation and store data, 
+but as it returns map object so retrieving data in list or tuple is time consuming.so only if time is considered for performace based on calculation 
+and storing data then this approach gives significant time reduction comapred to all the other approches i have taken in this file. 
+For plotting I am just coverting the map object to list as matplotlib takes list as argument.
 ''' 
 def optimal_sequence_using_map():
     
