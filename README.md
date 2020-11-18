@@ -38,12 +38,21 @@
   C10(9) = 2
   
   for the above example number of steps required to reach 1 is 7
-# How to run the file
+## How to run the file
 ```
 Run for : master
 to run the file download to your local system
 install the packages mentioned in requirment.txt
 to run python file in cmd use command ---> python <file name.py>
+```
+## How to run memory-profiler-optimal-sequence.py file 
+```
+Run for : master
+to run the file download to your local system
+install the packages mentioned in requirment.txt 
+to install pip install memory-profiler
+to run python file in cmd use command ---> 1- mprof run memory-profiler-optimal-sequence.py
+if you want to plot the output      -----> 2- mprof plot                                           
 ```
 # Explanation each solution
 ## Q - A - Implement a program to calculate the number of steps to reach 1 thefirst time for any given m∈N.
