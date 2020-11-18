@@ -37,15 +37,26 @@
   
   C10(9) = 2
   
- ## a)  Implement a program to calculate the number of steps to reach 1 the first time for any given m∈N.
   for the above example number of steps required to reach 1 is 7
+# How to run the file
 ```
 Run for : master
-to run the file download to local system
-to run python file in cmd use command python <file name.py>
+to run the file download to your local system
+install the packages mentioned in requirment.txt
+to run python file in cmd use command ---> python <file name.py>
 ```
+# Explanation each solution
+## Q - A - Implement a program to calculate the number of steps to reach 1 thefirst time for any given m∈N.
+  1- Idea of approching this solution was to find a simplest method to generate the mathematical sequence 1,4,2 for any given number given as a input by the user. And print the sequence and no of steps taken to reach 1.
+  2- And also allowing user to input only natural number n > 0.
 
+## Q - B - Adapt  the  implementation  to  calculate  the  number  of  steps  for  each m ∈ [1,10000].
+  1- Instaed of user giving any number as input, we are genrating the sequence for a range of number starting from 1 to 10000. And no of steps taken to reach 1 for each number.
 
+## Q - C - Try  to  improve  the  implementation  to  calculate  the  steps  as  fast  aspossbile.
+  1- For this Idea was to modify the approach taken in Q-B and improving the performance by making use of different methods of iteration in python. And finding an optimal solution which will take least time to achieve 1. I have taken 4 different approaches, each with explaination has been described inside the file.
 
-## Q - D - GRAPH
+## Q - D - Print the number of steps for eachm∈[1,10000] as diagram.
+  1- Implemented a graph using matplotlib package from python.
+ 
 ![Figure_1](https://user-images.githubusercontent.com/34180878/99405183-c35d5a00-28ec-11eb-87aa-2505e300e0a8.png)
